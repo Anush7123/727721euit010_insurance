@@ -1,0 +1,90 @@
+/* Apply styles to the outer div */
+.gen {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; background: url();
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  /* Styles for the outer container */
+  .container12 {
+    max-width: 1830px;
+    max-height: 1500px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 300px;
+    font-family: monospace;
+    box-shadow: inset -2px 2px 2px white;
+  }
+  
+  /* Styles for the table header cells */
+  .form-title {
+    font-family:monospace;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px white;
+  }
+  
+  /* Styles for the header cells */
+  .header-cell {
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    padding-right: 10px;
+  }
+  
+  /* Styles for the table body */
+  tbody {
+    background-color: #d1c5c5c0; 
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Styles for table rows */
+  tr {
+    height: 40px;
+  }
+  
+  /* Styles for each row of data */
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row color */
+  }
+  
+  /* Styles for the tick symbol */
+  .tick-symbol {
+    color: rgb(0, 255, 0);
+    font-size: 50px;
+    margin-right: 5px;
+  }
+  
+  /* Styles for success message */
+  .success {
+    color: white;
+    margin-left: 40px;
+    margin-top: -35px;
+    font-size: 20px;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 600px) {
+    .container12 {
+      min-width: 280px;
+    }
+  
+    .task-details-box {
+      max-height: 380px;
+      overflow: auto;
+    }
+  
+    .task-details-box::-webkit-scrollbar {
+      width: 0;
+    }
+  }

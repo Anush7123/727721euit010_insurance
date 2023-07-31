@@ -1,0 +1,19 @@
+.phone
+{
+    font-size:15px;
+}
+.box817 {
+    font-size: 20px;
+    margin-top: 100px;
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(2, 23, 61, 0.751);
+    padding: 20px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    }

@@ -1,0 +1,113 @@
+.comp1
+{
+    font-size: 25px;
+    font-style: Monospace;
+}
+.comp2
+{
+    font-size: 25px;
+    font-style: Monospace;
+}
+.comp3
+{
+    font-size: 25px;
+    font-style: Monospace;
+}
+.comp4
+{
+    font-size: 25px;
+    font-style: Monospace;
+}
+.topic1
+{
+    font-size: 30px;
+}
+.fine
+{
+    margin-left: 1000px;
+        color: #000;
+        padding: 20px 25px;
+        border:#333333;
+        border-radius: 5px;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+}
+.fine2
+{
+    margin-left: 5px;
+        color: #000;
+        padding: 20px 25px;
+        border:#333333;
+        border-radius: 5px;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+}
+.box81 {
+    margin-top: 100px;
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 30, 87, 0.751);
+    padding: 20px;
+    margin-left: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    }
+    .box82 {
+        margin-top: -400px;
+       margin-left: 100px;
+        height: 400px;
+        width: 500px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px rgba(0, 30, 87, 0.751);
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+  
+    }
+        .box83 {
+            margin-top: 60px;
+           margin-left: 100px;
+            height: 400px;
+            width: 500px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgba(0, 30, 87, 0.751);
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+            }
+            .box84 {
+                margin-top: -410px;
+                margin-left: 670px;
+                height: 400px;
+                width: 500px;
+                border-radius: 10px;
+                box-shadow: 3px 3px 10px rgba(0, 30, 87, 0.751);
+                padding: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                cursor: pointer;
+                transition: transform 0.3s ease-in-out;
+                }
+        .box-container1 {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            }
+            .report-body1 {
+                padding: 10px;
+            }

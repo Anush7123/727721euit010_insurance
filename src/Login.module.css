@@ -1,0 +1,80 @@
+/* 
+.customLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.login {
+  background-image: url("https://wallpapercave.com/wp/wp3152292.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px; 
+  padding: 30px; 
+  background-color: rgba(255, 255, 255, 0.9); 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.input {
+  width: 100%; 
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+.loginButton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold; 
+}
+navLink {
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 14px;
+} */
+
+.login {
+    background-image: url(https://res.cloudinary.com/dp7zahzrb/image/upload/v1689223220/Screenshot_2023-07-11_142753_vcsmv4.png);
+    width: 400px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 10 / 64%), 0 8px 16px rgb(0 10 0 / 34%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    margin-left: 518px;
+    margin-top: 100px;
+  }
+  
+  .login > form input {
+    border-radius: 10px;
+    border: 2px solid lightgrey;
+    outline: none;
+    color: #1d2129;
+    margin: 2% 0;
+    width: 90%;
+    padding: 12px;
+    font-size: 16px;
+  }

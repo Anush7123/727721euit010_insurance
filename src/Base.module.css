@@ -1,0 +1,39 @@
+/* login & register */
+.button_common {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 1rem;
+    width: 90%;
+    transition: 0.3s;
+    border-radius: 10px;
+
+  }
+  
+  .button_common:hover {
+    background-color: #0b83e6;
+    color: white;
+  }
+
+.error {
+    color: red;
+    text-align: left;
+    margin: auto;
+    font-size: 16px;
+    padding: 0px 1rem;
+}
+/* 
+#lab {
+  font-family: "Audiowide", sans-serif;
+  font-weight: bold;
+} */
+
+label {
+  font-weight: bold;
+  font-family: "Audiowide", sans-serif;
+  margin-right: 320px;
+
+}

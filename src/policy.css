@@ -1,0 +1,78 @@
+.policy{
+    font-size: 20px;
+    font-style: Monospace;
+    padding-bottom: 10px;
+    padding-top:30px;
+}
+.policy1
+{
+    font-size: 20px;
+}
+    .mine {
+       
+        margin-left: 1000px;
+        color: #000;
+        padding: 20px 25px;
+        border:#333333;
+        border-radius: 5px;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+        
+      }
+  .good
+  {
+    margin-left: 30px;
+        color: #000;
+        padding: 5px 5px;
+        border:#333333;
+        border-radius: 5px;
+        font-size: 50px;
+        font-weight: bold;
+        cursor: pointer;
+        
+  }
+.box810 {
+   
+    margin-top: 100px;
+    padding-top: 100px;
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 30, 87, 0.751);
+    padding: 20px;
+    margin-left: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    }
+    .box8100 {
+   
+        margin-top: 100px;
+        padding-top: 100px;
+        height: 500px;
+        width: 600px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px rgba(0, 30, 87, 0.751);
+        padding: 20px;
+        margin-left: 330px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+        }
+.box-container1 {
+
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    }
+.report-body1 {
+    padding: 5px;
+    }
+
